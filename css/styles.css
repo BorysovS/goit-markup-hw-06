@@ -888,6 +888,7 @@ flex-wrap: wrap;
         border: 2px solid var(--title-text-color);
         fill: var(--primary-bg-color);
         border-radius: 2px;
+        transition: fill var(--transition-dur-and-func), border-color var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
     }
 
     .modal-form-check:checked + .modal-form-check-own {
